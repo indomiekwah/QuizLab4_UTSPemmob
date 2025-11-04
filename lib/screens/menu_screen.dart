@@ -99,11 +99,11 @@ class _MenuScreenState extends State<MenuScreen> {
                   labelText: "Nama",
                   hintText: "Masukkan nama",
                   prefixIcon: Iconify(
-                    Ph.user_bold, // Ikon dari Iconify (Kriteria 85)
+                    Ph.user, // Ikon dari Iconify (Kriteria 85)
                     color: Colors.grey,
                   ),
                   border: OutlineInputBorder(
-                    borderRadius: BorderRadius.all(Radius.circular(8)),
+                    borderRadius: BorderRadius.all(Radius.circular(12)),
                   ),
                 ),
               ),
@@ -116,11 +116,11 @@ class _MenuScreenState extends State<MenuScreen> {
                   labelText: "NIM",
                   hintText: "Masukkan NIM",
                   prefixIcon: Iconify(
-                    Ph.student_bold, // Ikon dari Iconify (Kriteria 85)
+                    Ph.student, // Ikon dari Iconify (Kriteria 85)
                     color: Colors.grey,
                   ),
                   border: OutlineInputBorder(
-                    borderRadius: BorderRadius.all(Radius.circular(8)),
+                    borderRadius: BorderRadius.all(Radius.circular(12)),
                   ),
                 ),
               ),
