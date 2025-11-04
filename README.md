@@ -1,16 +1,16 @@
-# quiz_la4
+Nama: Clara Angelin Pijoh
+NIM: 231401086
+Lab: 4
 
-A new Flutter project.
+Nama Aplikasi: QuizLab4
+Deksripsi aplikasi: Aplikasi mobile yang menguji pengetahuan pengguna atas Flutter dan Dart dengan memberikan quiz berisi 5 soal pilihan ganda.
 
-## Getting Started
+Sumber-sumber aset yang digunakan:
+Icon: Iconifly
 
-This project is a starting point for a Flutter application.
+Link Prototype:
+https://figma.com/proto/2sfa2BZ8iPnLJUi9TmpsCR
 
-A few resources to get you started if this is your first Flutter project:
+Link video presentasi/demo aplikasi:
+Soon
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
