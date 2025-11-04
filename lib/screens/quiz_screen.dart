@@ -42,8 +42,8 @@ class QuizScreen extends StatelessWidget {
             automaticallyImplyLeading: false,
           ),
           body: Padding(
-            padding: const EdgeInsets.all(16.0),
-            child: Column(
+              padding: const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 32.0),            
+              child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 // Teks Pertanyaan
@@ -67,16 +67,12 @@ class QuizScreen extends StatelessWidget {
                     },
                   ),
                 ),
+                // Tombol "Lanjut" atau "Selesaikan"
+                PrimaryButton( // (Kriteria 6)A````````\
+                  text: isLastQuestion ? "Selesaikan Kuis" : "Lanjut", // [cite: 47]
+                  onPressed: handleNext,
+                ),
               ],
-            ),
-          ),
-          bottomNavigationBar: Padding(
-            // Padding ini akan memberi spasi 16px di sekeliling tombol
-            // di dalam area aman (safe area)
-            padding: const EdgeInsets.all(16.0),
-            child: PrimaryButton(
-              text: isLastQuestion ? "Selesaikan Kuis" : "Lanjut",
-              onPressed: handleNext,
             ),
           ),
         );
