@@ -42,7 +42,7 @@ class QuizScreen extends StatelessWidget {
             automaticallyImplyLeading: false,
           ),
           body: Padding(
-              padding: const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 32.0),            
+              padding: const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 72.0),            
               child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [

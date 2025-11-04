@@ -48,7 +48,7 @@ class ResultScreen extends StatelessWidget {
                     .displayLarge
                     ?.copyWith(fontWeight: FontWeight.bold, color: Colors.blue),
               ),
-              const SizedBox(height: 32),
+              const SizedBox(height: 8),
               Text(
                 "Terima kasih telah menggunakan aplikasi", // [cite: 80]
                 textAlign: TextAlign.center,

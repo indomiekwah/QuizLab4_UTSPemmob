@@ -51,7 +51,7 @@ class _MenuScreenState extends State<MenuScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "QuizLab4", // Pindahkan judul ke sini
+          "QuizLab4",
           style: Theme.of(context).textTheme.titleLarge?.copyWith(
                 fontWeight: FontWeight.bold,
               ),
@@ -99,7 +99,7 @@ class _MenuScreenState extends State<MenuScreen> {
                   labelText: "Nama",
                   hintText: "Masukkan nama",
                   prefixIcon: Iconify(
-                    Ph.user, // Ikon dari Iconify (Kriteria 85)
+                    Ph.user_bold, // Ikon dari Iconify (Kriteria 85)
                     color: Colors.grey,
                   ),
                   border: OutlineInputBorder(
@@ -116,7 +116,7 @@ class _MenuScreenState extends State<MenuScreen> {
                   labelText: "NIM",
                   hintText: "Masukkan NIM",
                   prefixIcon: Iconify(
-                    Ph.student, // Ikon dari Iconify (Kriteria 85)
+                    Ph.student_bold, // Ikon dari Iconify (Kriteria 85)
                     color: Colors.grey,
                   ),
                   border: OutlineInputBorder(
